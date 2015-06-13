@@ -41,7 +41,8 @@ import yahoofinance.quotes.stock.StockQuotesRequest;
 public class YahooFinance {
     
     public static final String QUOTES_BASE_URL = "http://finance.yahoo.com/d/quotes.csv";
-    public static final String HISTQUOTES_BASE_URL = "http://ichart.yahoo.com/table.csv";
+    // public static final String HISTQUOTES_BASE_URL = "http://ichart.yahoo.com/table.csv";
+    public static final String HISTQUOTES_BASE_URL = "http://table.finance.yahoo.com/table.csv";
     public static final String QUOTES_CSV_DELIMITER = ",";
     public static final String TIMEZONE = "America/New_York";
     
